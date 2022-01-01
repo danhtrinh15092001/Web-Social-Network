@@ -65,7 +65,7 @@
         </header>
 
         <main>
-            <section class="main__Section-Container main__Section-Message" id="small-header-message">
+            <section class="main__Section-Container main__Section-Message main__css-message" id="small-header-message">
                 <div class="header__top">
                     <h4>Messages</h4>
                     <a href="<?php echo url_for('messages?q=composeNewMessage'); ?>" class="m-icon-wrapper msg-btn" role="button" data-focusable="true">

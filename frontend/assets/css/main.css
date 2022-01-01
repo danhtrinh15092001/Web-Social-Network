@@ -239,12 +239,31 @@ main {
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
+
 section.main__Section-Container {
     grid-column: 1/2;
     border-right: 0.1rem solid var(--gray);
     display: flex;
+    width: 100%;
     flex-direction: column;
 }
+
+section.main__css-message {
+    grid-column: 1/2;
+    border-right: 0.1rem solid var(--gray);
+    display: flex;
+    width: 57%;
+    flex-direction: column;
+}
+
+section.main__Medium-Message {
+    grid-column: 1/2;
+    border-right: 0.1rem solid var(--gray);
+    display: flex;
+    width: 57.5%;
+    flex-direction: column;
+}
+
 .main__Section-Container .header__top {
     display: flex;
     align-items: center;
@@ -1659,14 +1678,15 @@ img#imagePreview {
 }
 .right-msg {
     grid-column: 2/3;
-    width: 588px;
+    width: 144%;
+    left: -84%;
     position: relative;
 }
 
 .no-msg-container {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 65%;
     transform: translate(-50%, -50%);
 }
 
@@ -1893,7 +1913,7 @@ section.chatsMessageContainer {
     border-bottom: 0.1rem solid var(--gray);
     position: fixed;
     background-color: #fff;
-    width: 558px;
+    width: 44%;
 }
 
 .chat-header-left {
@@ -1908,7 +1928,7 @@ section.chatsMessageContainer {
 
 .chat-header-image-wrapper img {
     height: 100%;
-    width: 100%;
+    width: 126%;
     object-fit: cover;
     border-radius: var(--corner-radius-full);
     background-color: rgba(26, 26, 26, 0.15);
@@ -1950,7 +1970,7 @@ section.chatsMessageContainer {
     flex: 1;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 127%;
     height: 100%;
     margin-bottom: 4.5rem;
     margin-top: 7.5rem;
@@ -2006,7 +2026,7 @@ section.chatsMessageContainer {
     line-height: 1.5rem;
     justify-content: flex-end;
     max-width: 100%;
-    width: 341px;
+    width: 100%;
 }
 
 .s-text {
@@ -2078,7 +2098,7 @@ section.chatsMessageContainer {
     line-height: 1.5rem;
     justify-content: flex-start;
     max-width: 100%;
-    width: 341px;
+    width: 100%;
 }
 
 ::-webkit-scrollbar {
@@ -2126,7 +2146,7 @@ aside.chat-footer {
     border: 0.1rem solid var(--gray);
     position: fixed;
     bottom: 0;
-    left: 691px;
+    left: 54%;
     right: 0px;
     background-color: #fff;
 }
@@ -2259,7 +2279,7 @@ aside.right-rail {
     right: 0;
     top: 0;
     bottom: 0;
-    left: 955px;
+    left: 75%;
     padding: 0 1rem;
 }
 form#search-form {
