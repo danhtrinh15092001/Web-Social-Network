@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteRule ^(verification|signUp|login|index|home|logout|profile|messages|explore)/?$ $1.php
+RewriteRule ^verification/([a-zA-Z0-9]+)/?$ verification.php?verify=$1     
+RewriteRule ^([a-zA-Z0-9]+)/?$ profile.php?username=$1  
+RewriteRule ^([a-zA-Z0-9]+)/(following|followers|replies|suggested)?$ $2.php?username=$1
+RewriteRule ^messages/([a-zA-Z0-9]+)/?$ messages.php?message=$1  
+RewriteRule ^home/([a-zA-Z0-9]+)/?$ home.php?viewTweet=$1 
+RewriteRule ^i/notification/?$ notification.php  
+RewriteRule ^notification/mention/?$ mention.php 
+RewriteRule ^profile/editProfile/?$ editProfile.php  

@@ -1,0 +1,330 @@
+@media (max-width: 739px) {
+    /* Index  */
+    .logo {
+        display: none;
+    }
+    .admin {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        position: relative;
+    }
+
+    .admin__sign {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+    }
+
+    .icon__twitter {
+        font-size: 4rem;
+        color: rgb(18, 146, 206);
+        margin: auto;
+    }
+
+    .admin__sign-header {
+        font-size: 3rem;
+        /* margin: 9rem 0 9rem 0; */
+    }
+
+    /* sign up */
+    .main__label {
+        grid-row: 1/2;
+        grid-column: 2/3;
+        width: 38rem;
+        box-shadow: 0 0 0.6rem rgb(0 0 0 / 30%);
+        padding: 4rem;
+    }
+    .main__footer {
+        margin-top: 8rem;
+        background-color: #edf3f7;
+        height: 15rem;
+        margin-left: -4rem;
+        margin-right: -4rem;
+    }
+
+    .main__footer-descrip {
+        font-size: 1.8rem;
+        padding: 6.5rem 2rem;
+    }
+
+    /* Sign up */
+    .signUp__navbar {
+        width: 49rem;
+        height: 13rem;
+        box-shadow: 0 0 0.7rem rgb(0 0 0 / 30%);
+    }
+
+    /* Home*/
+    .main-link__name {
+        display: none;
+    }
+
+    aside {
+        display: none;
+    }
+
+    .h-wrapper__heading {
+        grid-row: 2/3;
+        height: 100%;
+        padding: 0 2rem;
+        width: 335px;
+        position: relative;
+        grid-column: 1/3;
+        border: none;
+    }
+
+    main {
+        grid-column: 1/4;
+        display: block;
+    }
+
+    section.main__Section-Container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav__main-link {
+        display: contents;
+        margin: 1rem 0;
+        font-size: 1.7rem;
+        color: rgb(15, 20, 25);
+        font-weight: 700;
+        padding: 1rem;
+        width: 20rem;
+        border-radius: 9999px;
+        text-decoration: none;
+    }
+    .logo__category {
+        display: block;
+        cursor: pointer;
+    }
+    .nav__logo {
+        display: none;
+    }
+    .nav__footer {
+        display: none !important;
+    }
+    .nav__footer__child .nav__footer-container {
+        border: 1px solid #ccc;
+        background-color: #fff;
+    }
+    .nav__footer__child {
+        display: none;
+    }
+
+    .nav__main {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .menu__main {
+        position: fixed;
+        bottom: 0px;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 1rem 0;
+    }
+
+    li.msg-user-name-wrap {
+        width: 95%;
+    }
+
+    .popup-msg-wrapper {
+        min-width: 436px;
+    }
+
+    .reply-wrapper .reply-modal-content {
+        width: 424px;
+        height: 314px;
+        border-radius: 2.4rem;
+    }
+
+    .modal-edit {
+        width: 100%;
+    }
+
+    /* Edit profile */
+    .main__Section-Container .header__top h4 {
+        margin-left: 3rem;
+    }
+
+    .go-back:hover {
+        cursor: pointer;
+        border-radius: var(--corner-radius-full);
+        background-color: var(--blue-50-a1);
+    }
+
+    .body-edit__topcard {
+        display: block;
+        margin: 0 1rem;
+    }
+
+    .edit-cover__topcard {
+        width: 100%;
+    }
+
+    .small-edit {
+        margin-left: 24rem;
+        margin-top: -12rem;
+    }
+
+    .edit-username_text input,
+    .edit-bio_text input,
+    .edit-location_text input,
+    .edit-website_text input,
+    .edit-bio_text input {
+        width: 94%;
+        padding: 1.4rem;
+    }
+
+    .edit-birthday_text input,
+    .edit-work_text input {
+        border: 1px solid #ccc;
+        width: 200px;
+        border-radius: 12px;
+        font-size: 1.8rem;
+        padding: 1rem;
+    }
+
+    .edit-work_text input {
+        padding: 1.28rem;
+    }
+
+    .edit-work_text {
+        margin: 0;
+    }
+
+    .modal-edit__container {
+        min-width: 460px;
+        height: 500px;
+        max-height: 90vh;
+        max-width: 80vw;
+    }
+
+    .big-btn {
+        display: none;
+    }
+
+    .small-btn {
+        display: block !important;
+        margin-left: 35rem;
+    }
+
+    /* Message */
+    .small-message {
+        display: block !important;
+    }
+
+    .main__Section-Message {
+        display: none !important;
+    }
+
+    .chat-footer-small {
+        width: 100% !important;
+        position: fixed !important;
+        bottom: 0 !important;
+        left: -6px !important;
+    }
+
+    .mainChatContainer {
+        padding-bottom: 4.5rem;
+    }
+
+    .chat-header-top {
+        position: fixed;
+        background-color: #fff;
+        width: 94%;
+    }
+
+    .artdeco-modal-pic {
+        min-width: 460px;
+    }
+
+    .a-modal-site-logo-wrapper {
+        padding-left: 21rem;
+    }
+
+    .modal-body__topcard {
+        width: 91%;
+    }
+
+    .nav__footer__child {
+        position: fixed;
+        display: none;
+        z-index: 9999;
+        bottom: 18rem;
+    }
+
+    .postImageContainer__wrapper {
+        width: auto;
+    }
+
+    .post-body div {
+        max-width: auto !important;
+    }
+
+    .postContentContainer_postImage {
+        width: auto !important;
+    }
+
+    .header-top-pro {
+        margin-left: 3rem;
+    }
+
+    .go-back-arrow {
+        margin-right: 46rem;
+    }
+}
+
+@media (max-width: 1224px) {
+    aside {
+        display: none;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 740px) {
+    aside {
+        display: none;
+    }
+
+    main {
+        grid-column: 2/4;
+        display: block;
+    }
+
+    li.msg-user-name-wrap {
+        width: 95%;
+    }
+
+    .small-message {
+        display: block !important;
+    }
+
+    .main__Medium-Message {
+        display: none !important;
+    }
+
+    .chat-footer-small {
+        width: 66% !important;
+        position: fixed !important;
+        bottom: 0 !important;
+        left: 325px !important;
+    }
+
+    .mainChatContainer {
+        padding-bottom: 4.5rem;
+    }
+    .chat-header-top {
+        position: fixed;
+        background-color: #fff;
+        width: 65%;
+    }
+}

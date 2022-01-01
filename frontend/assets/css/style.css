@@ -1,0 +1,130 @@
+/* Chung */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* Riêng */
+.first__page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+    grid-template-rows: 1fr min-content;
+}
+/* Logo */
+.logo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: rgb(18, 146, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo__content {
+    color: white;
+    font-size: 1.6rem;
+}
+
+.flex__item {
+    display: flex;
+    align-items: center;
+    margin: 4rem;
+}
+
+.icon {
+    font-size: 3rem;
+    margin-right: 1.8rem;
+}
+
+/* Admin */
+.admin {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    position: relative;
+}
+
+.admin__sign {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon__twitter {
+    font-size: 4rem;
+    color: rgb(18, 146, 206);
+}
+
+.admin__sign-header {
+    font-size: 3rem;
+}
+
+.admin__sign-join {
+    font-size: 2rem;
+}
+
+.sign {
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 2rem;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin-top: 1rem;
+    color: #000;
+}
+.sign:hover {
+    background-color: rgb(18, 146, 206);
+    color: white;
+}
+
+.admin__signUp {
+}
+
+.admin__logIn {
+}
+
+/* footer */
+.connect {
+    grid-column: 1/-1;
+    background-color: white;
+    padding: 1.5rem;
+    grid-row: 2/3;
+    border-top: 1px solid #000;
+}
+
+.connect__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.connect__item {
+    padding: 1.2rem 1.4rem;
+}
+
+.connect__item-link {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: rgb(143, 114, 114);
+}
+
+.connect__item-link:hover {
+    text-decoration: underline;
+}

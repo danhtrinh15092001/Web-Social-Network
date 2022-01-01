@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" id="camera-small" data-supported-dps="48x48">
+  <path d="M46 8H30.52l-2.59-3.27a2.33 2.33 0 00-1.7-.73h-4.46a2.33 2.33 0 00-1.7.73L17 8H2a2.42 2.42 0 00-2 2v30a2.42 2.42 0 002 2h44a2.42 2.42 0 002-2V10a2.42 2.42 0 00-2-2z" fill="#56697a"/>
+  <path fill="#788fa5" d="M0 10h48v30H0z"/>
+  <path fill="#fbc2b2" d="M0 15h48v20H0z"/>
+  <path d="M24 13a12 12 0 1012 12 12 12 0 00-12-12z" fill="#fff"/>
+  <path d="M24 15a10 10 0 1010 10 10 10 0 00-10-10z" fill="#56697a"/>
+  <path d="M24 19a6 6 0 106 6 6 6 0 00-6-6z" fill="#1d2226"/>
+  <circle cx="24" cy="25" r="2" fill="#fdf9f3"/>
+</svg>

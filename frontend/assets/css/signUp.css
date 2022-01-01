@@ -1,0 +1,224 @@
+:root {
+    --gray: rgb(235, 238, 240);
+    --greyButtonText: rgba(0, 0, 0, 0.34);
+    --grayText: rgb(101, 119, 134);
+    --spacing: 1.5rem;
+    --corner-radius-sm: 1.6rem;
+    --corner-radius-full: 9999px;
+    --black: rgba(0, 0, 0, 0);
+    --blue: rgba(29, 161, 242, 1);
+    --blue-50-a1: rgba(29, 161, 242, 0.1);
+    --elevation-lined: rgba(0, 0, 0, 0.02) 0px 0px 2px inset;
+    --elevation-raised: rgba(101, 119, 134, 0.2) 0px 0px 15px, rgba(101, 119, 134, 0.15) 0px 0px 3px 1px;
+}
+/* Chung */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+/* Riêng */
+/************ navbar ****************/
+.signUp {
+    height: 100vh;
+}
+.signUp__navbar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 13rem;
+    height: 13rem;
+    box-shadow: 0 0 0.7rem rgb(0, 0, 0, 0.3);
+}
+.navbar__list {
+    display: flex;
+    margin: auto;
+}
+.signUp__navbar__custom {
+    width: 100%;
+    display: flex;
+    height: 13rem;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 0.7rem rgb(0 0 0 / 30%);
+}
+.signUp__navbar__custom li:nth-child(1) {
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.signUp__navbar__custom li:nth-child(1):hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: var(--corner-radius-full);
+}
+
+.navbar__item,
+.navbar__language-item {
+    display: inline-block;
+    padding: 1.2rem 4.4rem;
+    position: relative;
+    border-radius: 2rem;
+}
+
+.navbar__language-item::after,
+.navbar__item::after {
+    content: "";
+    width: 100%;
+    height: 0.4rem;
+    position: absolute;
+    background-color: rgb(18, 146, 206);
+    bottom: -4.5rem;
+    right: 0;
+    opacity: 0;
+}
+
+.mobie-menu-btn {
+    display: none;
+}
+
+.navbar__language-item:hover,
+.navbar__item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.navbar__language-item:hover::after,
+.navbar__item:hover::after {
+    opacity: 1;
+}
+
+.icon__twitter {
+    font-size: 4rem;
+    color: rgb(18, 146, 206);
+}
+
+.navbar__item-link {
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(148, 133, 133);
+}
+.navbar__language {
+    display: flex;
+    margin: auto;
+}
+
+.navbar__language-item {
+}
+
+.navbar__language-link {
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(148, 133, 133);
+}
+/************ main ****************/
+.signUp__main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 3rem;
+}
+
+.main__label {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    width: 80rem;
+    box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.3);
+    padding: 4rem 0 0 12rem;
+}
+
+.main__label-title {
+    font-size: 2.5rem;
+}
+
+.form__label {
+}
+
+.form__label-input {
+    margin: 2rem 0;
+    color: rgb(107, 97, 97);
+}
+
+.checkbox__s-password {
+}
+
+.s-password {
+    font-size: 1.6rem;
+    margin-left: -1.9rem;
+    margin-bottom: 2rem;
+}
+
+.label-input__head {
+    font-size: 2rem;
+}
+
+.form__label-input input {
+    display: block;
+    width: 35rem;
+    height: 3.5rem;
+    border: 1px solid rgb(107, 97, 97);
+    border-radius: 10px;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    color: rgb(148, 133, 133);
+    padding: 0.4rem;
+}
+
+.form__label-btn {
+}
+
+.btn__signUp {
+    padding: 1.4rem 1.6rem;
+    border: 1px solid #000;
+    font-size: 1.6rem;
+    border-radius: 22px;
+    background-color: rgb(18, 146, 206);
+    color: #fff;
+    cursor: pointer;
+}
+
+#checkbox {
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.checkbox__remember {
+    font-size: 1.6rem;
+}
+
+.main__footer {
+    margin-top: 8rem;
+    background-color: #edf3f7;
+    height: 15rem;
+    margin-left: -12rem;
+}
+
+.main__footer-descrip {
+    font-size: 1.8rem;
+    padding: 6.5rem 12rem;
+}
+
+.footer-descrip__link {
+    text-decoration: none;
+    color: blue;
+}
+
+.footer-descrip__link:hover {
+    text-decoration: underline;
+}
+
+.errorMessage {
+    display: block;
+    font-size: 1.6rem;
+    color: red;
+    font-weight: 600;
+    margin-bottom: 0.2 rem;
+}
