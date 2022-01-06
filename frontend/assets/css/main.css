@@ -116,7 +116,7 @@
     font-size: 1.5rem;
     color: rgb(15, 20, 25);
     transition: background-color 0.3s;
-    transform: translateY(130px);
+    transform: translateY(200%);
 }
 .footer-name__fullName {
     font-weight: 700;
@@ -257,10 +257,10 @@ section.main__css-message {
 }
 
 section.main__Medium-Message {
+    position: fixed;
     grid-column: 1/2;
-    border-right: 0.1rem solid var(--gray);
     display: flex;
-    width: 57.5%;
+    width: 28.8%;
     flex-direction: column;
 }
 
@@ -1678,8 +1678,9 @@ img#imagePreview {
 }
 .right-msg {
     grid-column: 2/3;
+    border-left: 0.1rem solid var(--gray);
     width: 144%;
-    left: -84%;
+    left: -83.5%;
     position: relative;
 }
 
@@ -2146,8 +2147,8 @@ aside.chat-footer {
     border: 0.1rem solid var(--gray);
     position: fixed;
     bottom: 0;
-    left: 54%;
-    right: 0px;
+    left: 54.5%;
+    right: 0;
     background-color: #fff;
 }
 
