@@ -14,7 +14,8 @@
   - Đổi tên thư mục Web-Social-Network thành Twitter.
 #### Import database
   - Mở trang phpMyAdmin.
-  - Import database `` vào trang phpMyAdmin
+  - Import database [twitter.sql] vào trang phpMyAdmin.
+  - Sau đó, click vào database `twitter`-> Click vào Privileges -> Click vào `Add user account`->
 ### Thêm các file và folder
   - Mở Visual Studio Code
 #### Run code:
