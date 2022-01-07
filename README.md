@@ -16,7 +16,7 @@
   - Mở trang phpMyAdmin.
   - Import database [twitter.sql](./twitter.sql) vào trang phpMyAdmin.
   - Sau đó, click vào database `twitter`-> Click vào `Privileges` -> Click vào `Add user account`->Tạo account-> Click GO.
-  - <img width="480" src='https://github.com/danhtrinh15092001/Web-Social-Network/blob/f968372c303a64d94eeb3a0be683ec3848ec20fd/account1.png'>
+  - <img width="1200" src='https://github.com/danhtrinh15092001/Web-Social-Network/blob/2e2c005e59d991d131e79e91170aab4967e8551f/account1.png'>
   - Tài khoản: twitter, password: password
 ### Thêm các file và folder
   - Mở Visual Studio Code
