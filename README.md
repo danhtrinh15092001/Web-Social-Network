@@ -23,6 +23,5 @@
 #### Run code:
   - Khởi động xampp.
   - Code được chạy ở đường dẫn `http://localhost/Twitter/`.
-  - 
 ## Demo
 <p align='center'><img src='https://github.com/danhtrinh15092001/Web-Social-Network/blob/c76b704ce5ad2505fd8e3a44bf0435b745f1cfe0/Demo.png'></p>
