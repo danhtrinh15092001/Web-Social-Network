@@ -6,20 +6,14 @@
 <?php include 'backend/shared/header.php'; ?>
 <body>
     <div class="signUp">
-        <div class="signUp__navbar">
-            <ul class="navbar__list">
-                <li class="navbar__item">
-                    <i class="fab fa-twitter icon__twitter"></i>
-                    <a href="" class="navbar__item-link">Home</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="" class="navbar__item-link">About</a>
-                </li>
-            </ul>
-            <ul class="navbar__language">
-                <li class="navbar__language-item"><a href="" class="navbar__language-link">Language: English</a></li>
-            </ul>
-        </div>
+        <ul class="signUp__navbar__custom">
+            <li class="icon">
+                <i class="fab fa-wolf-pack-battalion icon__twitter"></i>         
+            </li><li class="navbar__language-item">
+                <a href="" class="navbar__item-link">About</a>
+            </li>
+            <li class="navbar__language-item"><a href="" class="navbar__language-link">Language: Eng</a></li>
+        </ul>
         <div class="signUp__main">
             <div class="main__label">
                 <?php if (isset($_GET['verify']) || !empty($_GET['verify'])){

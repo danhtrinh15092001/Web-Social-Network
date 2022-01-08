@@ -31,6 +31,10 @@
     }
 
     /* sign up */
+    .signUp__navbar__custom {
+        width: 123%;
+    }
+
     .main__label {
         grid-row: 1/2;
         grid-column: 2/3;
@@ -87,6 +91,10 @@
         flex-direction: column;
     }
 
+    section.main__css-message {
+        width: 100%;
+    }
+
     .nav__main-link {
         display: contents;
         margin: 1rem 0;
@@ -134,11 +142,11 @@
     }
 
     li.msg-user-name-wrap {
-        width: 95%;
+        width: 94%;
     }
 
     .popup-msg-wrapper {
-        min-width: 436px;
+        min-width: 99%;
     }
 
     .reply-wrapper .reply-modal-content {
@@ -153,7 +161,7 @@
 
     /* Edit profile */
     .main__Section-Container .header__top h4 {
-        margin-left: 3rem;
+        /* margin-left: 3rem; */
     }
 
     .go-back:hover {
@@ -188,7 +196,7 @@
     .edit-birthday_text input,
     .edit-work_text input {
         border: 1px solid #ccc;
-        width: 200px;
+        width: 260px;
         border-radius: 12px;
         font-size: 1.8rem;
         padding: 1rem;
@@ -199,7 +207,7 @@
     }
 
     .edit-work_text {
-        margin: 0;
+        margin-left: 0.5rem;
     }
 
     .modal-edit__container {
@@ -215,10 +223,14 @@
 
     .small-btn {
         display: block !important;
-        margin-left: 35rem;
+        margin-left: 80%;
     }
 
     /* Message */
+    .chat-header-top .go-back-arrow {
+        display: block;
+    }
+
     .small-message {
         display: block !important;
     }
@@ -260,7 +272,7 @@
         position: fixed;
         display: none;
         z-index: 9999;
-        bottom: 18rem;
+        bottom: 5rem;
     }
 
     .postImageContainer__wrapper {
@@ -280,7 +292,7 @@
     }
 
     .go-back-arrow {
-        margin-right: 46rem;
+        /* margin-right: 46rem; */
     }
 }
 

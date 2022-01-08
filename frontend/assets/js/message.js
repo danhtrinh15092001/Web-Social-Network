@@ -23,7 +23,7 @@ $(function () {
         }
     });
 
-    // $(document).on("keydown", ".s-user", function (e) {
-    //     console.log(e);
-    // });
+    $(document).on("click", ".go-before-message", function (e) {
+        window.location.href = "http://localhost/twitter/messages";
+    });
 });

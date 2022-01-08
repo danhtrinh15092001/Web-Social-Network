@@ -104,6 +104,8 @@
     margin-top: 1rem;
     margin-left: 1rem;
     width: 100%;
+    position: absolute;
+    bottom: 12px;
 }
 .nav__footer-container {
     display: flex;
@@ -116,7 +118,6 @@
     font-size: 1.5rem;
     color: rgb(15, 20, 25);
     transition: background-color 0.3s;
-    transform: translateY(200%);
 }
 .footer-name__fullName {
     font-weight: 700;
@@ -252,7 +253,7 @@ section.main__css-message {
     grid-column: 1/2;
     border-right: 0.1rem solid var(--gray);
     display: flex;
-    width: 57%;
+    width: 58%;
     flex-direction: column;
 }
 
@@ -477,6 +478,7 @@ input#submitPostButton {
     cursor: pointer;
     display: none;
 }
+
 .postImageContainer__wrapper img {
     width: 100%;
     height: 100%;
@@ -1627,6 +1629,7 @@ span.submitEditProfileChange {
 }
 .main__footer__nav__ {
     background-color: white;
+    position: relative;
 }
 img#imageEditPreview {
     display: block;
@@ -1843,7 +1846,7 @@ li.msg-user-name-wrap {
     padding: 1rem;
     border-bottom: 0.1rem solid #ddd;
     cursor: pointer;
-    width: 343px;
+    width: 94%;
 }
 
 .msg-user-name-text {
@@ -1915,6 +1918,10 @@ section.chatsMessageContainer {
     position: fixed;
     background-color: #fff;
     width: 44%;
+}
+
+.chat-header-top .go-back-arrow {
+    display: none;
 }
 
 .chat-header-left {
